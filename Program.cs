@@ -13,7 +13,7 @@ namespace Lab1
             int.TryParse(input1, out num1);
             while (!int.TryParse(input1, out num1))
             {
-                Console.WriteLine("Please enter a value");
+                Console.WriteLine("Invalid! Please enter a value");
                 input1 = Console.ReadLine();
                 int.TryParse(input1, out num1);
             }
@@ -25,7 +25,7 @@ namespace Lab1
             int.TryParse(input2, out num2);
             while (!int.TryParse(input2, out num2))
             {
-                Console.WriteLine("Please enter a value");
+                Console.WriteLine("Invalid! Please enter a value");
                 input2 = Console.ReadLine();
                 int.TryParse(input2, out num2);
             }
