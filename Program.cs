@@ -12,7 +12,7 @@ namespace Lab1
             int num1;
             int.TryParse(input1, out num1);
 
-            //validation is used so exceptions are through
+            //validation is used so exceptions are not thrown
 
             while (!int.TryParse(input1, out num1))
             {
@@ -27,7 +27,7 @@ namespace Lab1
             int num2;
             int.TryParse(input2, out num2);
 
-            //validation is used so exceptions are through
+            //validation is used so exceptions are not thrown
 
             while (!int.TryParse(input2, out num2))
             {
